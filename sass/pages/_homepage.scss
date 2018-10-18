@@ -1,0 +1,133 @@
+	section.icons{
+		margin-bottom: 2rem;
+		text-align: center;
+		.homeicons {
+			min-height: 50px;
+			transition: .5s all;
+		}
+		h4{
+			text-transform: uppercase;
+			font-size: 1.2em;
+
+		}
+		p{
+			font-size:1em;
+			color:#434343;
+			font-weight: 300;
+			line-height: 1.5em;
+		}
+		.icon-links{
+			display: block;
+			color:#292929;
+			margin-bottom:2em;
+
+
+		}
+		.icon-links:hover{
+			text-decoration: none;
+			color:#005FCB;
+			transform: scale(1.05,1.05);
+			opacity: .8;
+
+		}
+		.icon-links:hover>h4{
+			 
+		}
+		.icon-links:hover>.homeicons{
+			
+		}
+	}
+
+.iconbox{ padding:10px 40px;
+	.homeicons{
+		margin-bottom:20px;
+	}
+
+}
+
+
+
+
+
+.infoboxes{
+
+	font-weight: 300;
+	line-height:2em;
+
+	p{
+		margin-bottom:2em;
+		
+	}
+	h3{
+		text-transform: uppercase;
+		margin-bottom:.5em;
+	}
+	.dark{
+		color:white;
+		p{
+			color:white;
+		}
+		background: #333;
+		text-align: right;
+		.descrip{
+			
+		}
+	}
+	.ibox{
+		padding-top:5em;
+		padding-bottom:5em;
+		background-attachment: fixed;
+
+	}
+	.mobile{
+		background: #EEEEEE;
+		background-image: url('img/circles.png');
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		background-size:contain;
+		.btn{margin-right:1em;}
+	}
+	.stages{
+		background-image: url("img/home-studio.jpg");
+		background-size:cover;
+		background-position: center center;
+	}
+	.digitalmedia {
+		background-image: url("img/home-digitalmedia-bg.jpg");
+		background-size:cover;
+		background-position: center center;
+	}
+	.transport {
+		background-image: url("img/home-transport3.jpg");
+		background-size:cover;
+		background-position: center center;
+	}
+	.post {
+		background-image: url("img/abstract-bg1.gif");
+		background-size:cover;
+		background-position: center center;
+		background-attachment: scroll;
+	}
+	.sales {
+		background-image: url("img/abstract-bg2.gif");
+		background-size:cover;
+		background-position: center center;
+		background-attachment: scroll;
+	}
+ 
+		@media(max-width:768px){
+		text-align: center;
+		.descrip{
+			text-align:center;
+		}
+
+	}
+}
+
+.mobile-products{
+	background-image: url("img/abstract-bg2.gif");
+	 background-size: cover;
+		background-position: top center;
+		background-attachment: fixed;
+}
+

@@ -1,0 +1,38 @@
+
+
+//CONTACT PAGE
+.contactform a{
+		color:white;
+	}
+.page-template-page-contact-php {
+	#directory{
+		a{
+			color:#555;
+		}
+	}
+	
+	.sectionoverlay{background-color:rgba(0,32,105,.4);}
+		.sectionhero{
+		background-image: url("img/contact-hero-1.jpg");
+		color:white;
+		iframe{
+			margin-bottom:5em;
+		}
+		h2{
+			text-align: left;
+			padding-top:4em;
+			padding-bottom:1em;
+			font-size:2em;
+			font-family: Roboto;
+			font-weight:500;
+		}
+		ul {
+			margin:0;padding:0;
+			li{
+				margin-bottom: 2.5em;
+				text-transform: uppercase;
+				list-style-type: none;
+			}
+		}
+	}
+}  

@@ -1,0 +1,100 @@
+//SATELLITE SERVICES PAGE 
+
+.page-template-page-satellite, .page-template-page-master-control{
+	.sectionoverlay{
+		h2{
+			padding-bottom:1em;
+		}
+	}
+a.custom-btn{
+	margin:auto;
+	display:block;
+	width:12em;
+	margin-bottom:6em;
+	font-size: 1.5em;
+	border-radius:.2em;
+	font-weight:200;
+}
+	#features{
+		padding:2em;
+		font-weight:300;
+ 
+		background: url(img/transport-features-icon.png) 90% 100% #eee no-repeat;
+		.feat{
+			border:1px dotted #ccc;
+			border-radius:10px;
+			background:rgba(255,255,255,.5);
+			padding:20px;
+			margin:20px 0;
+			transition: .5s all;
+			cursor: default;
+
+		}
+	
+		.feat:hover{
+			text-decoration: none;
+			color:#005FCB;
+			transform: scale(1.1,1.1);
+			opacity: .8;
+
+		}
+		// .divider{
+		// 	margin:2em 0;
+		// 	height:1px;
+		// 	background:#eee;
+		// 	padding: 0 4em;
+		// }
+		span{
+			font-weight:600;
+		}
+	}
+	#services{
+		color:white;
+		padding:5em 0 4.5em;
+		background: url(img/transport-history-1.jpg) bottom left #2F2F2F fixed;
+		h3{
+			text-align: center;
+			padding-bottom:1em;
+		}
+		.services-content{
+			max-width:50em;
+			margin:auto;
+		}
+			li{
+		list-style-type: none;
+		background: url('img/red-checks.png') no-repeat center left;
+		padding-left:2em;
+		padding-top:.5em;
+		padding-bottom:.5em;
+		transition: .5s all;
+			cursor: default;
+		border-radius:3px;
+		}
+		li:hover {
+		
+			text-decoration: none;
+			color:#fff;
+			transform: scale(1.1,1.1);
+		 
+			background-color:rgba(255,255,255,0.1);
+
+		
+		}
+	}
+	#history{
+		font-weight: 200;
+		color:white;
+		background: url(img/transport-history-icon.png) bottom left #2F2F2F no-repeat;
+		padding:5em 0 4.5em;
+			h3{
+				text-align: center;
+				font-family: raleway;
+				padding-bottom:1em;
+			}
+		.history-content{
+			max-width:50em;
+			margin:auto;
+		}	
+	}
+
+}

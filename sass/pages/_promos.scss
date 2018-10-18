@@ -1,0 +1,67 @@
+ // Grammys Promo Page
+
+ .page-id-811 {
+ 	.infoboxes .ibox {
+ 		padding: 7em 0;
+ 	}
+ 	.top-push{
+ 		 
+ 	}
+ 	.sectionhero {
+			background: url("img/promos/grammys-splash.jpg") no-repeat fixed;
+			background-size:cover;
+
+			height:100vh
+ 	}
+ 	 .sectionoverlay{
+ 	 	h1{
+ 	 		padding-top:35vh;
+ 	 		padding-bottom:8vh;
+ 	 	}
+ 	 	h4{
+ 	 		padding-bottom:8vh;
+ 	 		text-shadow: 2px 2px 13px rgba(0, 0, 0, 0.9);
+ 	 		font-weight: 700;
+ 	 		letter-spacing: .04em;
+ 	 		line-height: 1.6em;
+ 	 	}
+
+		background: rgba(0,32,105,.5);
+ 	}
+ 	.navbar {display: none;}
+ 	.main-footer .ftmain{
+		display: none;
+ 	}
+ 	.gateway{
+ 		background: url("img/promos/gateway-1.jpg") center center no-repeat fixed;
+ 		background-size: cover;
+ 	}
+ 	.crossroads .img-responsive{
+ 		margin-top:50px;
+ 	}
+ 	.img-responsive{
+ 		transition: 1s;
+ 	}
+ 	.hoverme:hover{
+		cursor: pointer;
+		transform: scale(1.2,1.2);
+ 	}
+ 	.crossroads{
+ 			background: url("img/promos/crossroads-bg.jpg") center center no-repeat fixed;
+ 			background-size: cover;
+ 	}
+ 	.splashbtn{
+ 		font-size:20px;
+ 		width:15em;
+ 		margin-bottom:1em;
+ 	}
+ 	.dn-arro{margin:auto; text-align: center;display: block;}
+ 	h3 {
+ 		font-weight: 600;
+ 		span{
+ 	 		font-weight: 400;
+ 	 	}
+ 	 }
+}
+
+   

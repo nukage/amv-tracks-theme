@@ -1,0 +1,58 @@
+//NEWS SINGLE PAGE
+
+
+.news-top{
+		background-image: url("img/news-headerbg.jpg");
+		background-size:cover;
+		margin-bottom:20px;
+		background-position: center bottom; 
+		background-attachment: fixed;
+		h1,h2{
+			color:white;
+			text-align: center;
+		}
+		h1{
+			font-size:2.3em;
+			text-transform: uppercase;
+			font-weight: 600;
+			padding-top:3.5em;
+			padding-bottom:.2em;
+		}
+		h2{
+			font-size:1.2em;
+			padding-bottom:6em;
+
+		}
+}	
+.news-single-content {
+	.entry-title {
+		font-family: Roboto;
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	.entry-meta {
+		padding-bottom:20px;
+	}
+
+	.attachment-pr-slider-image{
+		height:auto;
+		// padding-top:20px;
+		border:2px solid #E2E2E2;
+	}
+	.entry-footer{
+		padding-bottom:20px;
+	}
+	
+}
+
+.news-main-content{
+	article{
+		// border:1px solid #ccc;
+		// padding:5px;
+		// border-radius: 5px;
+	}
+}
+
+.alignright{
+	float:right;
+}

@@ -1,0 +1,65 @@
+.page-template-page-master-control {
+
+	#services{
+		background: url(img/westar-room-bw.jpg) bottom left #2F2F2F fixed;
+	}
+	.traffic-media-management{
+		 padding-bottom:2em;
+		text-align: left;
+		margin:auto;
+
+	}
+	.bluebar{
+		border:none;
+	}
+	.nav-tabs{
+		margin:auto;
+		width:30%;
+	 
+	}
+	#mc-faq {
+		padding-top:2em;
+		h2{
+			text-transform: uppercase;
+			font-weight: 600;
+			font-family: roboto;
+			font-size:2.5em;
+			border-bottom:1px solid #ccc;
+			display: inline-block;
+			margin-bottom:.5em;
+
+		}
+		text-align: center;
+		h3{font-family: roboto;
+			padding-top:20px;}
+		.answer{
+			font-size:1.5em;
+		}
+		p{
+			max-width:50em;
+			margin:auto;
+			padding: 1.5em 0;
+
+		}
+	}
+}
+
+#mc-overview{
+	text-align: center;
+	margin-top:3em;
+	margin-bottom:3em;
+	font-weight: 300;
+	hr{
+		margin:3em 0;
+	}
+	h4{
+		font-family: roboto;
+		 }
+}
+
+.tab-content {
+	font-weight:300;
+	.tab-pane{
+		padding-top:1em;
+	}
+} 

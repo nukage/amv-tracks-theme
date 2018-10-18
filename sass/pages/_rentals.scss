@@ -1,0 +1,48 @@
+
+// RENTALS CATEGORY PAGES
+.tax-rentals .sectionhero {
+			background-image: url("img/rentals-titlebar.jpg");
+			h1{
+				font-size:36px;
+			}
+			h2{
+				padding-bottom:3em;;
+			}
+			.sectionoverlay{
+			background-color:rgba(0,32,105,.8);
+
+		}
+ } 
+
+
+
+
+.single-rental {
+	h3, h4{
+		padding:0;
+		text-align:left;
+	}
+
+}
+
+
+
+.rental-product-categories{
+	border-bottom:1px solid #ccc;
+	padding-bottom:3em;
+
+}
+.rental-products .product {
+	.field-model, .field-brand, .field-weight {
+			display: block;
+			font-size:.8em;
+			line-height: 2em;
+		}
+	.description {
+		font-size:1em;
+		line-height: auto;
+		display: block;
+		line-height: 1.4em;
+		padding-bottom:.5em;
+	}
+}
